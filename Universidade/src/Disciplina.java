@@ -11,7 +11,7 @@ public class Disciplina {
         return nome;
     }
 
-    public void iniciarAula(professor professor) {
+    public void iniciarAula(Professor professor) {
         System.out.println("Realizando aula da disciplina " + codigo + " - " + nome + "...");
         professor.ministrarAula(this);
     }
