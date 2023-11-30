@@ -15,7 +15,8 @@ public class Estudante {
         return matricula;
     }
 
-    public void realizarMatricula(Disciplina disciplina) {
-        System.out.println(nome + ", de matrícula " + matricula + " realizou a matrícula na disciplina de " + disciplina.getNome());
+    public void realizarMatricula(Disciplina disciplina, Professor professor) {
+        System.out.println(nome + ", de inscrição " + matricula + " realizou a matrícula na disciplina de "
+                + disciplina.getNome() + ", ministrado por " + professor.getNome() + ".");
     }
 }
