@@ -1,18 +1,43 @@
-## Getting Started
+# Sistema Acadêmico
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto desenvolvido como parte da disciplina de Ambiente de Desenvolvimento de Software. O sistema simula interações em um ambiente acadêmico entre estudantes, professores, coordenadores, funcionários administrativos e um reitor.
 
-## Folder Structure
+## Classes
 
-The workspace contains two folders by default, where:
+### Estudante
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Representa um estudante matriculado no sistema.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Disciplina
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Representa uma disciplina oferecida, com nome e código.
 
-## Dependency Management
+### Professor
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Representa um professor responsável por ministrar aulas.
+
+### Coordenador
+
+Representa um coordenador responsável por coordenar disciplinas e professores.
+
+### FuncionarioAdministrativo
+
+Representa um funcionário administrativo responsável por processar matrículas.
+
+### Reitor
+
+Representa o reitor, que toma decisões importantes para a instituição.
+
+## Interações
+
+- **Interações com Estudantes:** Apresenta interações entre estudantes, disciplinas e professores.
+
+- **Interações com Professores:** Apresenta interações entre professores, coordenadores, disciplinas e estudantes.
+
+- **Interações com Disciplinas:** Apresenta interações entre disciplinas e professores.
+
+- **Interações com Coordenador:** Apresenta interações entre coordenadores, reitores, disciplinas e professores.
+
+- **Interações com Funcionário Administrativo:** Apresenta interações entre funcionários administrativos, coordenadores e estudantes.
+
+- **Interações com o Reitor:** Apresenta interações entre reitores, coordenadores e funcionários administrativos.
