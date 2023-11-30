@@ -10,6 +10,10 @@ public class FuncionarioAdministrativo {
     }
 
     public void processarMatricula(Estudante estudante) {
-        System.out.println("Processando matrícula de " + estudante.getNome());
+        System.out.println("Processando matrícula de " + estudante.getNome() + ".");
+    }
+
+    public void informarCoordenador(Coordenador coordenador, Estudante estudante) {
+        System.out.println(nome + " está informando " + coordenador.getNome() + " sobre a matrícula de " + estudante.getNome() + ".");
     }
 }
