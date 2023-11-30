@@ -32,7 +32,7 @@ public class Main {
 
         System.out.println("\n---------- Interações com as Disciplinas ----------\n");
 
-        disciplina1.realizarAula(professor3);
+        disciplina1.iniciarAula(professor3);
 
         System.out.println("\n---------- Interações com a Coordenadora ----------\n");
 
